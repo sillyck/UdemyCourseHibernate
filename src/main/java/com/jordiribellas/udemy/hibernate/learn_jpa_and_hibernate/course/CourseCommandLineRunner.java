@@ -29,6 +29,14 @@ public class CourseCommandLineRunner implements CommandLineRunner{
 		System.out.println(repository.findById(1l));
 		System.out.println(repository.findById(3l));
 		
+		System.out.println(repository.findAll());
+		System.out.println(repository.count());
+		
+		System.out.println(repository.findByAuthor("Jordi Ribellas"));
+		System.out.println(repository.findByAuthor(""));
+		
+		System.out.println(repository.findByName("Spring Boot Fundamentals new JPA"));
+		
 	}
 
 }
