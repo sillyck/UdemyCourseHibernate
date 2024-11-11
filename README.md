@@ -1,25 +1,26 @@
-# UdemyCourseHibernate
+# Hibernate Course Project
 
-This repository is dedicated to practicing **Hibernate** and **JPA** using **Spring Boot**. It contains examples and projects developed as part of a Udemy course on Hibernate and JPA.
+This project was developed as part of a Udemy course on Hibernate, focusing on building a robust and modular architecture for data persistence using Spring Boot and Hibernate.
 
-## Description
+## Features
+- **REST API**: Provides a RESTful API for managing resources.
+- **Data Persistence**: Uses Spring Data JPA and Hibernate for handling data storage.
+- **CRUD Operations**: Complete Create, Read, Update, and Delete functionality.
+- **Dependency Injection**: Modular code with Spring’s dependency injection.
+- **Exception Handling**: Centralized exception handling for better error management.
+- **SQL Scripts**: Contains SQL scripts for database initialization.
 
-In this repository, you will find examples of how to use **Hibernate** as an ORM (Object-Relational Mapping) along with the **Java Persistence API (JPA)** to manage databases efficiently. The project is built on **Spring Boot**, providing a fast and easy way to configure and start applications.
+## Technologies
+- **Java 21**
+- **Spring Boot 3.0.5**
+- **Spring Data JPA**
+- **Hibernate**
+- **Maven**
 
-### Technologies Used
-- **Spring Boot**: A framework for building Java applications quickly and easily.
-- **Hibernate**: An ORM to simplify interaction with relational databases.
-- **JPA**: Java API for managing persistence.
-- **H2 Database**: In-memory database for rapid testing and development.
+## Getting Started
+To run the project locally, clone the repository, navigate to the project directory, and start the application:
+```bash
+mvn spring-boot:run
+```
 
-### Project Objectives
-
-- Practice and understand how **Hibernate** and **JPA** work with **Spring Boot**.
-- Implement examples of entity relationships such as **One-to-One**, **One-to-Many**, **Many-to-Many**, and inheritance.
-- Learn concepts like **caching**, **criteria**, and **transactions** with Hibernate.
-
-### How to Run the Project
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/UdemyCourseHibernate.git
+The application will run at http://localhost:8080.
